@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Site01</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript">
+    window.onload = function(){
+        document.querySelector(".menu-mobile").addEventListener("click", function(){
+            if(document.querySelector(".menu").style.display == 'inline-block') {
+                document.querySelector(".menu").style.display = 'none'
+            } else{
+                document.querySelector(".menu").style.display = 'inline-block'
+            } 
+        });
+    };
+    </script>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+
+        <div class="logo">
+            <a href=""><img src="">Logo da Pagina</a>
+        </div> <!--logo-->
+
+        <div class="menu-mobile">
+            <div class="mobile-bar-menu"></div>
+            <div class="mobile-bar-menu"></div>
+            <div class="mobile-bar-menu"></div>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">A Empresa</a></li>
+                </ul>
+            </nav>
+        </div> <!--menu-->
+
+    </div> <!--container-->
+</header>
+
+<section id="banner">
+    <div class="container column">
+
+        <div class="banner_headline">
+            <h1>Nome da Clinica</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        </div><!--banner_headline-->
+
+        <div class="banner_options">
+            <div class="banner1">
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="">Veja mais</a>
+            </div><!--banner1-->
+            <div class="banner2">
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="">Veja mais</a>
+            </div><!--banner2-->
+            <div class="banner3">
+                <h2>Horarios de atendimento</h2>
+                <div class="horarios">  
+                    <div class="hora-box">
+                        <div>Segunda a Sexta</div>
+                        <div>08:00 - 18:00</div>
+                    </div>
+                    <div class="hora-box">
+                        <div>Sabado</div>
+                        <div>08:00 - 18:00</div>
+                    </div>
+                    <div class="hora-box">
+                        <div>Domingo</div>
+                        <div>08:00 - 18:00</div>
+                    </div>
+                </div><!--horarios-->
+            </div><!--banner3-->
+        </div><!--banner_options-->
+
+    </div><!--container-->
+</section> <!--banner-->
+
+<section id="geral">
+    <div class="container">
+
+        <section id="noticias">
+            <div class="widget">
+                <div class="widget-title">
+                    <div class="widget-title-text">Ultimas Noticias</div>
+                    <div class="widger-title-bar"></div>
+                </div><!--widger-title-->
+                <div class="widget-body">
+                    <article>
+                        <a href="">
+                            <div class="news-data">
+                                <div class="news-posted">31 DEZ 21</div>
+                                <div class="news-comments">2</div>
+                            </div><!--news-data-->
+                            <div class="news-image">
+                                <img src="news_image.jpg"> 
+                            </div>
+                            <div class="news-title">Lorem Ipsum</div>
+                            <div class="news-resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Cras a mollis urna. In at erat cursus, lobortis diam et, 
+                                ultrices ex. Vestibulum porta viverra mauris, 
+                                eget ultricies neque sodales quis.
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <div class="news-data">
+                                <div class="news-posted">31 DEZ 21</div>
+                                <div class="news-comments">2</div>
+                            </div><!--news-data-->
+                            <div class="news-image">
+                                <img src="news_image.jpg"> 
+                            </div>
+                            <div class="news-title">Lorem Ipsum</div>
+                            <div class="news-resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Cras a mollis urna. In at erat cursus, lobortis diam et, 
+                                ultrices ex. Vestibulum porta viverra mauris, 
+                                eget ultricies neque sodales quis.
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <div class="news-data">
+                                <div class="news-posted">31 DEZ 21</div>
+                                <div class="news-comments">2</div>
+                            </div><!--news-data-->
+                            <div class="news-image">
+                                <img src="news_image.jpg"> 
+                            </div>
+                            <div class="news-title">Lorem Ipsum</div>
+                            <div class="news-resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Cras a mollis urna. In at erat cursus, lobortis diam et, 
+                                ultrices ex. Vestibulum porta viverra mauris, 
+                                eget ultricies neque sodales quis.
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <div class="news-data">
+                                <div class="news-posted">31 DEZ 21</div>
+                                <div class="news-comments">2</div>
+                            </div><!--news-data-->
+                            <div class="news-image">
+                                <img src="news_image.jpg"> 
+                            </div>
+                            <div class="news-title">Lorem Ipsum</div>
+                            <div class="news-resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Cras a mollis urna. In at erat cursus, lobortis diam et, 
+                                ultrices ex. Vestibulum porta viverra mauris, 
+                                eget ultricies neque sodales quis.
+                            </div>
+                        </a>
+                    </article>
+                </div><!--widget-body-->
+            </div><!--widget-->
+        </section>
+
+        <aside>
+            <div class="widget" id="departamentos">
+                <div class="widget-title">
+                    <div class="widget-title-text">Departamentos</div>
+                    <div class="widger-title-bar"></div>
+                </div><!--widger-title-->
+                <div class="widget-body">
+                    <div class="dep"></div>
+                    <div class="dep"></div>
+                    <div class="dep"></div>
+                    <div class="dep"></div>
+                    <div class="dep"></div>
+                    <div class="dep"></div>
+                </div><!--widget-body-->
+            </div><!--widget-->
+
+            <div class="widget" id="mconsulta" >
+                <div class="widget-title">
+                    <div class="widget-title-text">Marque sua consulta</div>
+                    <div class="widger-title-bar"></div>
+                </div><!--widger-title-->
+                <div class="widget-body">
+                    <div class="mdados"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                    <div class="mdados"><p>Telefone: <b>(99) 9999-9999</b></p></div>
+                    <div class="mdados"><p>E-mail: <b>consulta@email.com</b></p></div>
+                    <div class="mdados"><p>WhatsApp: <b>(99) 99999-9999</b></p></div>
+                </div><!--widget-body-->
+            </div><!--widget-->
+        </aside>
+    </div><!--container-->
+</section><!--geral-->
+
+<footer>
+    <div class="container flexColumn">
+
+        <div class="footer-menu">
+            <div class="fm1">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div><!--fm1-->
+            <div class="fm2">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div><!--fm2-->
+            <div class="fm3">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div><!--fm3-->
+        </div><!--footer-menu-->
+
+        <div class="footer-area">
+            <div class="footer-area-item">
+                <div class="widget-title">
+                    <div class="widget-title-text">Endereco</div>
+                    <div class="widger-title-bar"></div>
+                </div><!--widger-title-->
+                <div class="footer-endereco">
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                    <div class="box-endereco">
+                        <div class="endereco">
+                            Nome da clinica <br>
+                            Rua Abcdefg, 99 <br>
+                            Centro<br>
+                            Minas Gerais, 99999-999
+                        </div>
+                        <div class="contatos">
+                            <br>
+                            (99) 9999-9999<br>
+                            (99) 9999-9999<br>
+                            email@email.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-area-item">
+                <div class="widget-title">
+                    <div class="widget-title-text">Ultimos Posts</div>
+                    <div class="widger-title-bar"></div>
+                </div><!--widger-title-->
+                <div class="faconteudo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>  
+                <div class="faconteudo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>  
+                <div class="faconteudo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div> 
+            </div>
+            <div class="footer-area-item">
+                <div class="widget-title">
+                    <div class="widget-title-text">Ultimos Tweets</div>
+                    <div class="widger-title-bar"></div>
+                </div><!--widger-title-->  
+                <div class="faconteudo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>  
+                <div class="faconteudo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>  
+                <div class="faconteudo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>  
+            </div>
+        </div><!--footer-area-->
+
+        <div class="footer-cr">
+            <p>Copyright - Todos os direitos reservados - 2021</p>
+        </div> <!--footer-cr-->
+
+    </div><!--container-->
+</footer>
+    
+</body>
+</html>
